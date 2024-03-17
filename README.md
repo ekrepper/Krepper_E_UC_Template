@@ -24,19 +24,23 @@ Vorher definierten "Grenzwert" von zu hoher HF wird überschritten. Alarm ertön
 
 
 ### Invarianten
-Die Daten müssen gespeichert werden, auch wenn die Leistungsdiagnostik vorzeitig abgebrochen wird, falls es Vitalparamter erfordern. 
+Die Daten müssen gespeichert werden, auch wenn die Leistungsdiagnostik vorzeitig abgebrochen wird (falls es Vitalparamter erfordern)
 
 ### Nachbedingung/Ergebnis:
-Überprüfen durch Arzt/Ärztin: Liegt "nur" eine große Anstrengung (bis zur Ausbelastung) vor - geht es Proband:in ansonsten gut?  
+Überprüfen durch Arzt/Ärztin: Liegt "nur" eine große Anstrengung (bis zur Ausbelastung) vor - geht es Proband:in ansonsten gut? --> Leistungstest kann fortgesetzt werden trotz Alarm.
 Wurde die maximale HF zu niedrig angenommen oder veranlassen andere Vitalparameter (z.B. drastischer Abfall des Blutdruckes) einen Abbruch der Leistungsdiagnose um die Patientensicherheit zu gewährleisten? 
 
 ### Standardablauf:
 Athlet:in absolviert Leistungstest, durchläuft so viele Leistungsstufen bis Ausbelastung erreicht wird und sie/er die geforderte Leistung (in  Watt) erbringen und einhalten kann. Test zu Ende, Daten werden gespeichert und von Mediziner:in ausgewertet und mit Proband:in und ggf. Trainer:in besprochen. Alarm wird nicht benötigt.
 
-Alternative Ablaufschritte:
+### Alternative Ablaufschritte
+Evtl. Abfrage nach Ertönen von Alarm - soll Test fortgesetzt werden oder abgebrochen werden. Bei Abbruch entweder Abfrage ob Daten gespeichert werden sollen oder automatisches Speichern.
 
 
-Hinweise:
+### Hinweise
+Geeignete genaue Messmethode für HF-Messung wählen (z.B. im Zuge von EKG oder zumindest mittels Brustgurt)
 
-Änderungsgeschichte:
+
+### Änderungsgeschichte
+0.01; 17.01.2024, Elisabeth Krepper
 
