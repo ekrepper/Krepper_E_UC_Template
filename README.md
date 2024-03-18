@@ -16,7 +16,7 @@ in Arbeit
 
 ### Verwendete Anwendungsfälle
 
-Vorbedingungen
+### Vorbedingungen
 Im Anamnesegespräch wird aufgrund der maximalen Herzfrequenz des Athleten/der Athletin ein Grenzwert festgelegt (von Diagnostiker:in, u.U. in Absprache mit Trainer:in) bei dem der Alarm ertönen soll. Falls die maximale HF nicht bekannt ist, wird diese z.B. durch die grobe Faustformel Maximale HF = 220 - Lebensalter angenommen. Erste Warnung bei z.B. 90% der max. HF. Falls HF den zuvor besprochenen maximalen HF-Wert übersteigt, sollen Vitalparameter von Proband:in genauer gecheckt werden. 
 
 ### Auslöser
@@ -24,14 +24,14 @@ Vorher definierten "Grenzwert" von zu hoher HF wird überschritten. Alarm ertön
 
 
 ### Invarianten
-Die Daten müssen gespeichert werden, auch wenn die Leistungsdiagnostik vorzeitig abgebrochen wird (falls es Vitalparamter erfordern)
+Die Daten müssen gespeichert werden, auch wenn die Leistungsdiagnostik vorzeitig abgebrochen wird 
 
 ### Nachbedingung/Ergebnis:
 Überprüfen durch Arzt/Ärztin: Liegt "nur" eine große Anstrengung (bis zur Ausbelastung) vor - geht es Proband:in ansonsten gut? --> Leistungstest kann fortgesetzt werden trotz Alarm.
-Wurde die maximale HF zu niedrig angenommen oder veranlassen andere Vitalparameter (z.B. drastischer Abfall des Blutdruckes) einen Abbruch der Leistungsdiagnose um die Patientensicherheit zu gewährleisten? 
+Wurde die maximale HF zu niedrig angenommen --> alles gut, Test weiter? Oder veranlassen andere Vitalparameter (z.B. drastischer Abfall des Blutdruckes) einen Abbruch der Leistungsdiagnose um die Patientensicherheit zu gewährleisten? 
 
 ### Standardablauf:
-Athlet:in absolviert Leistungstest, durchläuft so viele Leistungsstufen bis Ausbelastung erreicht wird und sie/er die geforderte Leistung (in  Watt) erbringen und einhalten kann. Test zu Ende, Daten werden gespeichert und von Mediziner:in ausgewertet und mit Proband:in und ggf. Trainer:in besprochen. Alarm wird nicht benötigt.
+Athlet:in absolviert Leistungstest, durchläuft so viele Leistungsstufen bis Ausbelastung erreicht wird und sie/er die geforderte Leistung (in  Watt mit entsprechenden Umdrehungen pro Minute) erbringen und einhalten kann. Test zu Ende, Daten werden gespeichert und von Mediziner:in ausgewertet und mit Proband:in und ggf. Trainer:in besprochen. Alarm wird nicht benötigt.
 
 ### Alternative Ablaufschritte
 Evtl. Abfrage nach Ertönen von Alarm - soll Test fortgesetzt werden oder abgebrochen werden. Bei Abbruch entweder Abfrage ob Daten gespeichert werden sollen oder automatisches Speichern.
